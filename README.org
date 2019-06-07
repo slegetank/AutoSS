@@ -2,7 +2,7 @@
 #+AUTHOR: slegetank
 #+OPTIONS: \n:\n
 
-Script to establish the Shadowsocks service on digital ocean droplet.
+Script to establish Shadowsocks service on DigitalOcean Droplet.
 
 [[file:./AutoSS.png]]
 
