@@ -1,0 +1,16 @@
+#+TITLE: AutoSS
+#+AUTHOR: slegetank
+#+OPTIONS: \n:\n
+
+Script to establish the Shadowsocks service on digital ocean droplet.
+
+[[file:./AutoSS.png]]
+
+* Use
+#+BEGIN_SRC shell
+  python setup.py -i xx.xx.xx.xx -p xxxxxx -c /path/to/shadowsocks.json
+#+END_SRC
+| param | comment          |
+| -i    | Server IP        |
+| -p    | root pass        |
+| -c    | Config file path |
